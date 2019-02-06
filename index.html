@@ -4,50 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
   <title>Ivy's Portfolio</title>
 </head>
 <body>
-  <!-- mouseover to open nav options -->
   <nav>
-    <a href="#me">About Me</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="blog.html" target="_blank">Blog</a>
-    <a href="resume.html" target="_blank">Resume</a>
-    <a href="#contact">Contact</a>
+    <div id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+      <input type="checkbox" />
+      <ul id="menu">
+        <a href="#me"><li>About Me</li></a>
+        <a href="#portfolio"><li>Portfolio</li></a>
+        <a href="blog.html" target="_blank"><li>Blog</li></a>
+        <a href="resume.html" target="_blank"><li>Resume</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>  
+    </div>
   </nav>
+
   <header>
     <!-- <img src="https://i.imgur.com/cyyzNYu.jpg" alt="my office" width="100%"> -->
-    <!-- scrolling text span flash span(each word)-->
-
+    <h1>My Name Is Ivy, Nice to Meet You.</h1>
+    <p>I am a Web Developer. </p>
+    <span>
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class='fab fa-js'></i>
+      <i class='fab fa-react'></i>
+      <i class='fab fa-node-js'></i><br>
+      <i class='fab fa-aws'></i>
+      <i class='fab fa-chrome'></i>
+      <i class="fab fa-git"></i>
+      <i class='fab fa-github'></i>
+    </span>
   </header>
+  
   <section id="me">
-    <h2>My Name Is Ivy, Nice to Meet You.</h2>
-    <p>Frontend Web Developer working with the MERN Stack (MongoDB, Express, React, Node)</p>
-    
-  </section>
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-        <div><img src="https://i.imgur.com/IYB5rrt.png" alt="Rockfall" width="200px"></div>
-        <div><img src="https://i.imgur.com/GXLrDob.png" alt="SoCal Senders" width="200px"></div>
-        <div><img src="https://i.imgur.com/h8KSyV3.jpg" alt="5 o'clock" width="200px"></div>
-        <div><img src="https://i.imgur.com/DfGpQDC.png" alt="Fribble Frum" width="200px"></div>
+    <h2>About Me</h2>
+    <img src="https://avatars3.githubusercontent.com/u/38338640?s=400&u=1572ff4390deb330e678125a56f03d20220b27dc&v=4" alt="my picture" width="150px"/>
+    <p>I am currently working with the MERN Stack (MongoDB, Express, React, Node). When I am not writing amazing code, I am rock climbing, eating good food, travelling or playing video games. I also love animals and care for the enviroment. Check out my blog to follow me on my adventures in life and coding.</p><br>
+    <div>
+      <a href="blog.html"><i class='fas fa-desktop'></i></a>
+      <p>Link to Blog</p>
     </div>
-  
+    <div>
+      <a href="resume.html"><i class='fas fa-cloud-download-alt'></i></a>
+      <p>My Resume</p>
+    </div>  
   </section>
   
+  <section id="portfolio">
+    <div class="grid">
+      <div><h2>Portfolio</h2></div>
+      <div class="item"><img src="https://i.imgur.com/IYB5rrt.png" alt="Rockfall" ></div>
+      <div class="item"><img src="https://i.imgur.com/GXLrDob.png" alt="SoCal Senders" ></div>
+      <div class="item"><img src="https://i.imgur.com/h8KSyV3.jpg" alt="5 o'clock" ></div>
+      <div class="item"><img src="https://i.imgur.com/DfGpQDC.png" alt="Fribble Frum" ></div>
+    </div>  
+  </section>
   
-  
+
   <section id="contact">
     <h2>Contact Me</h2>
-    <img src="https://avatars3.githubusercontent.com/u/38338640?s=400&u=1572ff4390deb330e678125a56f03d20220b27dc&v=4" alt="my picture" width="150px"/>
-    <p>
-      <!-- email link here -->
-      <strong>Email</strong>:📧 yunjilim@gmail.com <br>
-      <a href="https://github.com/iylim" target="_blank"><img src="https://i.imgur.com/JVHztGV.png" alt="link to my repo"></a>
-      <a href="https://www.linkedin.com/in/iylim/" target="_blank"><img src="https://i.imgur.com/GFgCYxj.png" width="60px" alt="link to my linkedin"></a></div>
-    
-    </p>
+    <span>
+      <div>
+      <a href="mailto: yunjilim@gmail.com"><img alt="email" src="https://image.flaticon.com/icons/svg/1455/1455115.svg" width="60px"/></a>
+      <p>Email Me</p>  
+    </div>
+    <div>
+      <a href="https://github.com/iylim" target="_blank"><img src="https://i.imgur.com/JVHztGV.png" alt="link to my repo" width="60px" /> </a>
+      <p>Check Out My Github</p>  
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/iylim/" target="_blank"><img src="https://i.imgur.com/GFgCYxj.png" width="60px" alt="link to my linkedin"></a>
+      <p>View My LinkedIn</p>
+    </div>  
+  </span>
   </section>
 </body>
 </html>
