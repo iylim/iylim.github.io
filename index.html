@@ -18,9 +18,9 @@
       <ul id="menu">
         <a href="#me"><li>About Me</li></a>
         <a href="#portfolio"><li>Portfolio</li></a>
+        <a href="#contact"><li>Contact</li></a>
         <a href="blog.html" target="_blank"><li>Blog</li></a>
         <a href="resume.html" target="_blank"><li>Resume</li></a>
-        <a href="#contact"><li>Contact</li></a>
       </ul>  
     </div>
   </nav>
@@ -45,7 +45,7 @@
   <section id="me">
     <h2>About Me</h2>
     <img src="https://avatars3.githubusercontent.com/u/38338640?s=400&u=1572ff4390deb330e678125a56f03d20220b27dc&v=4" alt="my picture" width="150px"/>
-    <p>I am currently working with the MERN Stack (MongoDB, Express, React, Node). When I am not writing amazing code, I am rock climbing, eating good food, travelling or playing video games. I also love animals and care for the enviroment. Check out my blog to follow me on my adventures in life and coding.</p><br>
+    <article>I am currently working with the MERN Stack (MongoDB, Express, React, Node). When I am not writing amazing code, I am rock climbing, eating good food, travelling or playing video games. I also love animals and care for the enviroment. Check out my blog to follow me on my adventures in life and coding.</article><br>
     <div>
       <a href="blog.html"><i class='fas fa-desktop'></i></a>
       <p>Link to Blog</p>
@@ -59,10 +59,46 @@
   <section id="portfolio">
     <div class="grid">
       <div><h2>Portfolio</h2></div>
-      <div class="item"><img src="https://i.imgur.com/IYB5rrt.png" alt="Rockfall" ></div>
-      <div class="item"><img src="https://i.imgur.com/GXLrDob.png" alt="SoCal Senders" ></div>
-      <div class="item"><img src="https://i.imgur.com/h8KSyV3.jpg" alt="5 o'clock" ></div>
-      <div class="item"><img src="https://i.imgur.com/DfGpQDC.png" alt="Fribble Frum" ></div>
+      <div class="item">
+          <a href="#modal1"><img src="https://i.imgur.com/IYB5rrt.png" alt="Rockfall" /></a>
+        <div id="modal1">
+          <div class="modal1">
+            <h2>Rockfall</h2>
+            <p>
+              Fun and addicting Match 3 Game. You have 1 minute to get as many matches possible. Bonus points are awarded for more matches and combos.
+            </p>
+            <p>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class='fab fa-js'></i>
+            </p>
+            <a href="#portfolio">Close</a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <a href="#modal2"><img src="https://i.imgur.com/GXLrDob.png" alt="SoCal Senders" /></a>
+        <div id="modal2">
+            <div class="modal2">
+              <h2>SoCal Senders</h2>
+              <p>
+                Application for Rock Climbers. Token based authentication used to login and access additional features such as adding photos, rating and commenting on routes, and bookmark your favorite routes. Pictures hosted on AWS.
+              </p>
+              <p>
+                <img src="https://www.clipartmax.com/png/small/109-1092369_ror-development-works-well-in-both-small-and-large-ruby-on-rails.png" alt="ruby on rails" />
+                <i class='fas fa-key'></i>
+                <i class='fab fa-aws'></i>
+              </p>
+              <a href="#portfolio">Close</a>
+              </div>
+            </div>
+        </div>
+      <div class="item">
+        <img src="https://i.imgur.com/h8KSyV3.jpg" alt="5 o'clock" >
+      </div>
+      <div class="item">
+        <img src="https://i.imgur.com/DfGpQDC.png" alt="Fribble Frum" >
+      </div>
     </div>  
   </section>
   <!-- image opacity overlay? -->
