@@ -145,7 +145,7 @@ header i {
   width: calc(100vw / 2 - 40px);
   flex-grow: 1;
 }
-#modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7 {
+#modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7, #modal8 {
   opacity: 0;
   position: fixed;
   top: 0px;
@@ -163,28 +163,28 @@ header i {
   text-align: right;
   z-index: 1;
 }
-#modal1:target, #modal2:target, #modal3:target, #modal4:target, #modal5:target, #modal6:target, #modal7:target {
+#modal1:target, #modal2:target, #modal3:target, #modal4:target, #modal5:target, #modal6:target, #modal7:target, #modal8:target {
   opacity: 1;
   visibility: visible
 }
-#modal1 a, #modal2 a, #modal3 a, #modal4 a, #modal5 a, #modal6 a, #modal7 a {
+#modal1 a, #modal2 a, #modal3 a, #modal4 a, #modal5 a, #modal6 a, #modal7 a, #modal8 a {
     color: #ededed;
 }
-#modal1 a:hover, #modal2 a:hover, #modal3 a:hover, #modal4 a:hover, #modal5 a:hover, #modal6 a:hover, #modal7 a:hover {
+#modal1 a:hover, #modal2 a:hover, #modal3 a:hover, #modal4 a:hover, #modal5 a:hover, #modal6 a:hover, #modal7 a:hover, #modal8 a:hover {
     color: tomato;
 }
-#modal1 p, #modal2 p, #modal3 p, #modal4 p, #modal5 p, #modal6 p, #modal7 p {
+#modal1 p, #modal2 p, #modal3 p, #modal4 p, #modal5 p, #modal6 p, #modal7 p, #modal8 p {
   max-width: 700px;
   padding: 5px;
 }
-#modal1 i, #modal2 i, #modal3 i, #modal4 i, #modal5 i, #modal6 i, #modal7 i {
+#modal1 i, #modal2 i, #modal3 i, #modal4 i, #modal5 i, #modal6 i, #modal7 i, #modal8 i {
   font-size: 30px;
 }
-#modal1 span, #modal2 span, #modal3 span, #modal4 span, #modal5 span, #modal6 span, #modal7 span {
+#modal1 span, #modal2 span, #modal3 span, #modal4 span, #modal5 span, #modal6 span, #modal7 span, #modal8 span {
   padding: 5px;
 }
 
-#modal4 img {
+#modal5 img {
   width: 30px;
   height: 30px;
   padding: 0;
@@ -316,7 +316,7 @@ nav .goback {
   .grid .item img {
     object-fit: contain;
   }
-  #modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7 {
+  #modal1, #modal2, #modal3, #modal4, #modal5, #modal6, #modal7, #modal8 {
     margin: 10px;
     padding: 0px 20px;
     box-shadow: none;
