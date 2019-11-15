@@ -20,6 +20,11 @@ a:hover {
   color: tomato;
 }
 /* Menu */
+
+#menuToggle {
+  padding: 5px 8px;
+}
+
 #menuToggle input {
   display: block;
   width: 40px;
